@@ -43,4 +43,23 @@ dependencies {
     kapt "com.google.dagger:dagger-compiler:2.28"
     kapt "com.google.dagger:dagger-android-processor:2.28"
 
+    // Retrofit
+    def retrofitVersion = "2.5.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+    // RxJava
+    def rxjava_version = '2.1.1'
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+
+    // Rx-Retrofit Call Adapter
+    def rxcalladapter_version = '2.5.0'
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rxcalladapter_version" // Retrofit call adapter
+
+    ///Picasso
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Material Design
+    implementation 'com.google.android.material:material:1.0.0-alpha1'
 }
